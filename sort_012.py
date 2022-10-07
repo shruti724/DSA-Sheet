@@ -4,19 +4,19 @@
 # op: [0, 0, 0, 1, 1, 2]
 
 
-# def sorting(lis):
-#     for i in range(0, len(lis)):
-#         if lis[i] >= lis[i + 1]:
-#             temp = lis[i]
-#             lis[i] = lis[i + 1]
-#             lis[i + 1] = temp
-#         print(lis)
-#
-# t = int(input())
-# for i in range(t):
-#     n = int(input())
-#     arr = [int(x) for x in input().strip().split()]
-#     sorting(arr)
+def sorting(lis):
+    for i in range(0, len(lis)):
+        if lis[i] >= lis[i + 1]:
+            temp = lis[i]
+            lis[i] = lis[i + 1]
+            lis[i + 1] = temp
+        print(lis)
+
+t = int(input())
+for i in range(t):
+    n = int(input())
+    arr = [int(x) for x in input().strip().split()]
+    sorting(arr)
 
 # op:
 # 1
